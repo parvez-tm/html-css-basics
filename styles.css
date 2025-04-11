@@ -44,3 +44,12 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: gray; /* using rgba(alpha channel) will apply to only background color  */
+  transform: scale(1.5);
+  transform-origin: 0 0;
+  opacity: 0.4; /* If i use opacity it will apply on whole element */
+}
