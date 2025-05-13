@@ -65,6 +65,11 @@ h1 {
   width: 100px;
   height: 100px;
   background-color: brown;
-  transform: translateX(230px);
+  /* transform: translateX(50%); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
   /* margin-top: 10px; When i give margin it will also push the content.*/
 }
